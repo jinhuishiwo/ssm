@@ -24,7 +24,6 @@ public class MyController {
 
     @RequestMapping(value ="/addStudent.do")
     public ModelAndView addStudent(Student stu) throws MyUserException {
-        System.out.println("helloworld");
         if(stu.getAge()>80){
             throw new AgeException("大爷,您请注意身体");
         }
