@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Git-Test:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Git-Test</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch04-SSM-整合开发-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Git-Test:war exploded" />
+    </root>
+  </artifact>
+</component>
